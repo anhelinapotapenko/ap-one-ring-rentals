@@ -5,6 +5,7 @@ import "./css/style.css";
 
 import HomePage from "./pages/HomePage.js";
 import ContactPage from "./pages/ContactPage.js";
+import RegionsPage from "./pages/RegionsPage.js";
 
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/regions" element={<RegionsPage />} />
       </Routes>
       <Footer />
     </>
