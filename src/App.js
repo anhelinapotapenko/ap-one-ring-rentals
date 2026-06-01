@@ -6,6 +6,7 @@ import "./css/style.css";
 import HomePage from "./pages/HomePage.js";
 import ContactPage from "./pages/ContactPage.js";
 import RegionsPage from "./pages/RegionsPage.js";
+import NewsPage from "./pages/NewsPage.js";
 
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/regions" element={<RegionsPage />} />
+        <Route path="/news" element={<NewsPage />} />
       </Routes>
       <Footer />
     </>
