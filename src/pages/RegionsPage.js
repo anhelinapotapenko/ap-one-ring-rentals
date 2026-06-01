@@ -2,10 +2,10 @@ import React from "react";
 
 import perth from "../images/perth.jpg";
 import sydney from "../images/sydney.jpg";
-import melbourne from "../images/sydney.jpg";
-import brisbane from "../images/sydney.jpg";
-import adelaide from "../images/sydney.jpg";
-import hobart from "../images/sydney.jpg";
+import melbourne from "../images/melbourne.png";
+import brisbane from "../images/brisbane.png";
+import adelaide from "../images/adelaide.png";
+import hobart from "../images/hobart.png";
 
 function RegionsPage() {
   return (
