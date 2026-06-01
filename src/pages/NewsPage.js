@@ -4,6 +4,7 @@ import image05 from "../images/building05.jpg";
 import image06 from "../images/building06.jpg";
 import image07 from "../images/building07.jpg";
 import CityCard from "../components/CityCard.js";
+import HelpSection from "../components/HelpSection.js";
 
 function NewsPage() {
   return (
@@ -113,6 +114,7 @@ function NewsPage() {
           </div>
         </div>
       </div>
+      <HelpSection />
     </>
   );
 }

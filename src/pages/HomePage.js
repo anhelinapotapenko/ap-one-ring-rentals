@@ -6,6 +6,7 @@ import image_women from "../images/building.png";
 import icon01 from "..//images/building.png";
 
 import HomeSlider from "../components/HomeSlider.js";
+import HelpSection from "../components/HelpSection.js";
 
 function HomePage() {
   return (
@@ -542,6 +543,7 @@ function HomePage() {
           </div>
         </div>
       </main>
+      <HelpSection />
     </>
   );
 }
