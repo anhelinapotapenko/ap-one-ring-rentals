@@ -27,20 +27,37 @@ function HomeSlider() {
   }
   const [currentSlide, setCurrentSlide] = useState(0);
   {
+    /*
+    adding effect to move slides 3 seconds
+     */
+  }
+  {
     /*function to change slide 0 -> 1 */
   }
   function nextSlide() {
     setCurrentSlide(currentSlide === slides.length - 1 ? 0 : currentSlide + 1);
   }
   {
-    /*function to change slide 0 -> 1 */
+    /*function to change slide 1-> 0 */
   }
   function previousSlide() {
     setCurrentSlide(currentSlide === 0 ? slides.length - 1 : currentSlide - 1);
   }
+
   {
-    /*html code */
+    /*
+    adding effect to move slides 3 seconds
+     */
   }
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) =>
+        prevSlide === slides.length - 1 ? 0 : prevSlide + 1,
+      );
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
   {
     /*html code */
   }
