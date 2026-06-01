@@ -1,9 +1,9 @@
 import React from "react";
 import image01 from "../images/building.png";
-import image02 from "../images/building.png";
-import image_men from "../images/building.png";
-import image_women from "../images/building.png";
-import icon01 from "..//images/building.png";
+import image02 from "../images/building02.jpg";
+import image_men from "../images/comment-man.jpg";
+import image_women from "../images/comment-woman.jpg";
+import icon01 from "../images/markers/aquamarine-marker-land.png";
 
 import HomeSlider from "../components/HomeSlider.js";
 import HelpSection from "../components/HelpSection.js";
