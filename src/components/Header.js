@@ -1,3 +1,5 @@
+// Header.js - displays the logo, links, search bar, navigation
+
 import React from "react";
 import logo from "../images/logo.png";
 

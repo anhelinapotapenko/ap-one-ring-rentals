@@ -1,3 +1,7 @@
+// CityCard.js - uses array of city data. map() to loop
+// through the array and create cards, this avoids repeating
+//  the same HTML many times.
+
 import React from "react";
 import perth from "../images/perth.jpg";
 import sydney from "../images/sydney.jpg";

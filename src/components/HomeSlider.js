@@ -26,11 +26,7 @@ function HomeSlider() {
     /*adding state to activate slides, first slide - 0, second slide - 1 */
   }
   const [currentSlide, setCurrentSlide] = useState(0);
-  {
-    /*
-    adding effect to move slides 3 seconds
-     */
-  }
+
   {
     /*function to change slide 0 -> 1 */
   }

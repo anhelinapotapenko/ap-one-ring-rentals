@@ -11,11 +11,15 @@ import NewsPage from "./pages/NewsPage.js";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
+{
+  /*allows navigation between pages */
+}
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
+      {/* Header and Footer outsite off routes so its appear on every page */}
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -28,5 +32,7 @@ function App() {
     </>
   );
 }
-
+{
+  /*this exports the app component to it can be imported and rendered in index.js */
+}
 export default App;

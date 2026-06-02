@@ -1,3 +1,6 @@
+// HelpSection.js - uses Link from React Router to sends
+// user to the ContactPage.js without refreshing the whole website.
+
 import React from "react";
 /*link - used to move between pages */
 
