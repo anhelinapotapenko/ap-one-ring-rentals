@@ -1,13 +1,19 @@
 import React from "react";
-
+{
+  /* styles */
+}
 import "./css/bootstrap.min.css";
 import "./css/style.css";
-
+{
+  /*pages */
+}
 import HomePage from "./pages/HomePage.js";
 import ContactPage from "./pages/ContactPage.js";
 import RegionsPage from "./pages/RegionsPage.js";
 import NewsPage from "./pages/NewsPage.js";
-
+{
+  /* components */
+}
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
