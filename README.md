@@ -287,10 +287,10 @@ I used state in HomeSlider to track which slide is currently displayed. When the
 
 - useState Hook
 
-useSate is a React Hook that allows functional components to store and update data.
+useState is a React Hook that allows functional components to store and update data.
 
 Example: import {useState} from "react";
-const [currentSlide, setCurrenyClide]= useState(0);
+const [currentSlide, setCurrentSlide]= useState(0);
 
 - useEffect Hook
 
@@ -345,9 +345,11 @@ rent: "$450/week"
 }
 
 - Array.map()
+
 loops through an array.
 Used to generate multiple cards from an array insted of writing the same code.
 Example: regions.map((item, index) => (
+
   <div>{item.name}</div>
 ))
 
