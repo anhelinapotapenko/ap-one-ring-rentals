@@ -1,27 +1,12 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-import slide1 from "../images/building04.jpg";
-import slide2 from "../images/building03.jpg";
-
+import { slides } from "../data/slides.js";
 function HomeSlider() {
   {
     /* adding array with slide image and text*/
   }
-  const slides = [
-    {
-      id: "slide1",
-      image: slide1,
-      title: "Breathtaking views",
-      subtitle: "Relaxation in the Bay of Belfalas",
-    },
-    {
-      id: "slide2",
-      image: slide2,
-      title: "The simple life",
-      subtitle: "Lush gardens in Mordor",
-    },
-  ];
+
   {
     /*adding state to activate slides, first slide - 0, second slide - 1 */
   }
