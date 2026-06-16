@@ -46,7 +46,7 @@ function Header() {
                 <li>
                   <form id="site-search">
                     <span>
-                      <i class="fa fa-search"></i>
+                      <i className="fa fa-search"></i>
                     </span>
                     <input type="text" name="q" placeholder="Search" />
                   </form>
@@ -111,6 +111,9 @@ function Header() {
                   </li>
                   <li>
                     <a href="/contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/about">About</a>
                   </li>
                 </ul>
               </nav>

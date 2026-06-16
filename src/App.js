@@ -11,9 +11,13 @@ import HomePage from "./pages/HomePage.js";
 import ContactPage from "./pages/ContactPage.js";
 import RegionsPage from "./pages/RegionsPage.js";
 import NewsPage from "./pages/NewsPage.js";
+
 {
   /* components */
 }
+
+import AboutPage from "./pages/AboutPage.js";
+
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 
@@ -33,6 +37,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/regions" element={<RegionsPage />} />
         <Route path="/news" element={<NewsPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />
     </>
